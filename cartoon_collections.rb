@@ -7,7 +7,9 @@ def summon_captain_planet(elements)
 end
 
 def long_planeteer_calls(words)
-  words.include?(words.length > 4) true : false
+  words.include?(words.length > 4) true 
+  else 
+    false
   
 end
 
