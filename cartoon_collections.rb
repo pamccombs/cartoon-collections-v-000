@@ -14,6 +14,6 @@ def find_the_cheese(food)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   
- food.collect {|cheddar| if cheddar == "cheddar" puts "cheddar" }
+ food.collect {|cheddar| "#{cheddar}" == "cheddar" puts "cheddar" }
  
 end
